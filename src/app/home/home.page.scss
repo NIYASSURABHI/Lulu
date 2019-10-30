@@ -2,3 +2,112 @@
   max-height: 35vh;
   overflow: hidden;
 }
+.lulu_card{
+ // margin-top: 10px;
+  background: #282f40;
+  padding-bottom: 50PX;
+ 
+}
+
+
+
+ .home_grid{
+  padding: 0px !important;
+  text-align: center;
+  margin-top:0;
+ 
+  
+ }
+ .col6{
+  border:1px solid #ccc;
+  border-bottom: none;
+  border-right: none;
+  text-align: center;
+  padding:50px;
+}
+.col6:last-child{
+ border-right:1px solid #ccc;
+}
+.row:last-child .col6{
+ border-bottom:1px solid #ccc;
+}
+ 
+.icn{
+  font-size:20px;
+  padding-bottom: 10px;
+}
+
+.hdr{
+  background: #282f40;
+}
+
+.toolbar-background {
+  background: red !important;
+}
+
+.def_currency,.def_currency_value{
+  float: left;
+  font-weight:bold;
+  width: 50%;
+  text-align: center;
+  color:#fff;
+  line-height:20px;
+  padding: 0;
+  margin: 0;
+  --background: #0095ff !important;
+  --min-height:54px;
+}
+.def_currency_value{
+  
+  font-size:25px;
+ 
+}
+.pad_col{
+  padding: 2px 15px;
+}
+#inner{
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -moz-transform: rotate(45deg); 
+  background: #282f40;
+
+  width: 120px;
+  height: 132px;
+  top: 20px;
+  left: -90px;
+  position: relative;
+  border-radius: 42px;
+
+}
+
+#outer {
+  position: absolute;
+  width: 70px;
+  height: 170px;    
+  top: 17%;
+  left: 40%;
+z-index:10;
+   overflow: hidden;    
+  
+   -ms-transform: rotate(90deg); /* IE 9 */
+-webkit-transform: rotate(90deg); /* Safari 3-8 */
+transform: rotate(90deg);
+}
+.circl{
+  width:65px;
+  height:65px;
+  border-radius: 50%;
+  position: absolute;
+  z-index:100;
+  background-image: radial-gradient(circle, #158dbf, #177aab);
+left:41%;
+top:19%;
+padding:22px 25px;
+color:#fff;
+}
+.circl .icn{
+
+
+}
